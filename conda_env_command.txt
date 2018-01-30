@@ -1,0 +1,4 @@
+conda create -n tutorial_2018 python=2.7 matplotlib=1.5.3 cartopy netcdf4 jupyter git ffmpeg wrf-python jupyter_contrib_nbextensions jupyter_nbextensions_configurator
+source activate tutorial_2018
+conda install -c damianavila82 rise
+
