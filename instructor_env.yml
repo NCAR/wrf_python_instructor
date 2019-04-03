@@ -1,0 +1,26 @@
+# Create full conda environment for development, including some useful tools
+name: instructor
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - wrapt
+  - numpy
+  - matplotlib
+  - netcdf4
+  - xarray
+  - jupyter
+  - sphinx
+  - sphinx_rtd_theme
+  - pycodestyle
+  - cartopy
+  - basemap
+  - clang_osx-64
+  - gfortran_osx-64
+  - jupyter_contrib_nbextensions
+  - jupyter_nbextensions_configurator
+  - ffmpeg
+  - rise
+  - git
+  - wrf-python
+
